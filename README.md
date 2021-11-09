@@ -12,14 +12,22 @@ We combined the Distogram features with the features from various BERT models to
 
 ## Comparison of our method with exisiting techniques
 We compared our method with different feature generation methods:
-Amino Acid Composition (AAC)
-Dipeptide Composition (DPC)
-Position Specific Scoring Matrices (PSSM)
+* Amino Acid Composition (AAC)
+* Dipeptide Composition (DPC)
+* Position Specific Scoring Matrices (PSSM)
 
 We also compared our method with using various classifiers:
-Extra Trees Classifier (EXT)
-Random Forest Classifier (RFC)
-Support Vector Machine (SVM)
+* Extra Trees Classifier (EXT)
+* Random Forest Classifier (RFC)
+* Support Vector Machine (SVM)
+
+We also compared our method with our previous study
+* TRP-BERT
+* Disto-TRP
+
+We further assess the performance of our method with composite features of Distogram with domain specific BERT models:
+* BioBERT
+* TAPE (Tasks Assessing Protein Embeddings) BERT
 
 
 
