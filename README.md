@@ -25,7 +25,7 @@ We also compared our method with our previous study:
 * TRP-BERT [3]
 * Disto-TRP (current study)
 
-We further assess the performance of our method with composite features of Distogram with domain specific BERT models:
+We further assessed the performance of our method with composite features of Distogram with domain specific BERT models:
 * BioBERT [4]
 * TAPE (Tasks Assessing Protein Embeddings) BERT [5]
 
