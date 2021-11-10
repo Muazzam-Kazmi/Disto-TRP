@@ -8,7 +8,7 @@ Understanding the structure of protein is quite important since it assist to und
 
 A Distogram is a distance matrix that contains information about the distance between the pairs of amino acids. AlphaFold generates this distogram based on the represntations of the target protein sequence and the features of the corresponding muliple sequence alighment (MSA). We used Distogram as novel feature set to develop our method.
 
-## Methodogoy
+## Methodology
 We combined the Distogram features with the features from various BERT [2] models to construct a hybrid feature set and utilized the resultant composite feature set as input to the Support Vector Machine (SVM) Classifier to classify TRP channels from general channel proteins.
 
 ## Comparison of our method with exisiting techniques
