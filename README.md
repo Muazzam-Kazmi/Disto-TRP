@@ -4,7 +4,7 @@
 ## Introduction
 In this study we proposed a method named as Disto-TRP, that utilized the structural information obtained from AlphaFold to effectively identifying Transient Receptor Potential (TRP) channels.
 
-The structure of TRP channel composed of six transmembrane domain (S1-S6). The pore loop exist between S5 and S6, that allows the movement of ion particles such as Ca2+, Mg2+, and Na+ across the plasma membrane. It is also noteworthy that the N-Terminal and C-Terminal of the TRP channels exist in the cytosol. The below Figure 1 shows the architecture of the TRP channels.
+The structure of TRP channel composed of six transmembrane domain (S1-S6). The pore loop exist between S5 and S6, that allows the movement of ion particles such as Ca2+, Mg2+, and Na+ across the plasma membrane. It is also noteworthy that the N-Terminal and C-Terminal of the TRP channels exist in the cytosol. The below Fig.1. shows the architecture of the TRP channels.
 
 ## Fig.1. A typical depiction of TRP channel's structure.
 ![](images/TRP_Structure.png)
@@ -16,7 +16,7 @@ A Distogram is a distance matrix that contains information about the distance be
 ## Methodology
 In our current study we used two databases for collecting data, including Transporters Classification database (TCDB) and The Universal Protein Resource (UniProt) database. Thus, we collected tranient receptor potential (TRP) channels and other (non-TRP) channel porteins from the above mentioned data sources.
 
-After acquiring the distorgram for TRP and non-TRP channels, we transformed the distograms into features. Furthermore, we combined the Distogram features with the features from various BERT [2] models to construct a hybrid feature set and utilized the resultant composite feature set as input to the Support Vector Machine (SVM) Classifier to classify TRP channels from general channel proteins.
+After acquiring the distorgram for TRP and non-TRP channels, we transformed the distograms into features. Furthermore, we combined the Distogram features with the features from various BERT [2] models to construct a hybrid feature set and utilized the resultant composite feature set as input to the Support Vector Machine (SVM) Classifier to classify TRP channels from general channel proteins. Fig.2. represents the framework of the proposed method in this study.
 
 ## Fig.2. An illustration of the entire framework of the proposed study
 ![](images/Disto_trp.png)
