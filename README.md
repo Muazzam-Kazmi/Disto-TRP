@@ -9,8 +9,9 @@ Understanding the structure of protein is quite important since it assist to und
 A Distogram is a distance matrix that contains information about the distance between the pairs of amino acids. AlphaFold generates this distogram based on the represntations of the target protein sequence and the features of the corresponding muliple sequence alighment (MSA). We used Distogram as novel feature set to develop our method.
 
 ## Methodology
-In our current study we used two databases for collecting data, including Transporters Classification database (TCDB) and The Universal Protein Resource (UniProt) database.
-We combined the Distogram features with the features from various BERT [2] models to construct a hybrid feature set and utilized the resultant composite feature set as input to the Support Vector Machine (SVM) Classifier to classify TRP channels from general channel proteins.
+In our current study we used two databases for collecting data, including Transporters Classification database (TCDB) and The Universal Protein Resource (UniProt) database. Thus, we collected tranient receptor potential (TRP) channels and other (non-TRP) channel porteins from the above mentioned data sources.
+
+After acquiring the distorgram for TRP and non-TRP channels, we transformed the distograms into features. Furthermore, we combined the Distogram features with the features from various BERT [2] models to construct a hybrid feature set and utilized the resultant composite feature set as input to the Support Vector Machine (SVM) Classifier to classify TRP channels from general channel proteins.
 
 ## Fig.1. An illustration of the entire framework of the proposed study
 ![](images/Disto_trp.png)
