@@ -19,7 +19,7 @@ In our current study we used two databases for collecting data, including Transp
 After acquiring the distorgram for TRP and non-TRP channels, we transformed the distograms into features. Furthermore, we combined the Distogram features with the features from various BERT [2] models to construct a hybrid feature set and utilized the resultant composite feature set as input to the Support Vector Machine (SVM) Classifier to classify TRP channels from general channel proteins. Fig.2. represents the framework of the proposed method in this study.
 
 ## Fig.2. An illustration of the entire framework of the proposed study
-![](images/Disto_trp.png)
+![](images/Disto_trp_channels.png)
 
 
 ## Comparison of our method with exisiting techniques
